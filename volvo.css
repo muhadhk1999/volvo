@@ -1,0 +1,182 @@
+
+.bgimg{
+    width: 100%;
+    height: auto;
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+.logo{
+    width: 130px;
+    height: 28px;
+}
+.navbar{
+    z-index: 1;
+}
+.bgimg{
+   
+    position: absolute;
+    top: 0;
+}
+.imageback{
+    height: 700px;
+    width: 100%;
+    background: url(bgimage-new.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.imageback h1{
+    color:#fff;
+    margin-left: 550px;
+    font-size: 54px;
+    font-weight: bold ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section2{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 700px;
+}
+.section2 .text{
+    margin-left: 7rem;
+    font-size: 54px;
+}
+
+.card1{
+    width: 22em;
+    height: 27em;
+    padding-top: 300px;
+
+
+    background: url(carousel-cars4.avif)
+
+}
+.card1 h1{
+    color: #fff;
+
+}
+.card2{
+    width: 22em;
+    height: 27em;
+    padding-top: 300px;
+
+    background: url(carousel-trucks5.avif)
+
+}
+.card2 h1{
+    color: #fff;
+
+}
+.card3{
+    width: 22em;
+    height: 27em;
+    padding-top: 300px;
+
+    background: url(carousel-vce6.avif);
+
+}
+.card3 h1{
+    color: #fff;
+
+}
+.card4{
+    width: 22em;
+    height: 27em;
+    padding-top: 300px;
+    
+
+    background: url(carousel-bus-night-1.avif);
+
+}
+.card4 h1{
+    color: #fff;
+
+}
+.card5{
+    width: 22em;
+    height: 27em;
+    padding-top: 300px;
+    
+
+    background: url(carousel-penta-industrial2.avif);
+
+}
+.card5 h1{
+    color: #fff;
+
+}
+
+.ratio{
+    width: 100%;
+    height: 675px;
+
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #000;
+}
+.footer li{
+    color: #fff;
+    text-align: start;
+}
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
+#hed{
+    font-size: 10px;
+    font-weight: normal;
+}
+.leftfooter{
+    padding-top: 5em;
+    margin-left: 15em;
+    padding-bottom: 4em;
+
+}
+
+
+
+
+/* media queries */
+@media(max-width:976px){
+    .imageback{
+    height: 700px;
+    width: 100%;
+    background: url(bgimage-new.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    }
+    .imageback h1{
+        color:#fff;
+    margin-left: 0px;
+    font-size: 54px;
+    font-weight: bold ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+}
+@media(max-width:500px){
+    .leftfooter{
+        display: flex;
+        align-content: center;
+        justify-content: left;
+        margin-left: 0;
+
+    }
+    
+    
+
+}
+
+
+
+
+
